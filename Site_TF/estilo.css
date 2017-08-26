@@ -3,34 +3,39 @@
 	padding:0px;
 }
 /*Menu superior*/
+
+
 .topo{
 	width: 100%;
 	height:100px;
 	background-color: #000;	
 }
 
-.logo{
-	position:relative;
-	left:100px;
-	top:20px;
-	top:30px;		
+.logo{ 
+	position: absolute;
+	padding-top: 30px;
+	width: 200px;
+	text-align: center;
+	
 }
 
 .menu_principal{
-	width:60%;
-	padding-left:100px;
+	width:80%;
+	height: 100px;
+	float: right;
+	
 }
 
 .menu_principal ul{
 	width: 100%;
 	height: 30px;
+	padding-top: 40px;
 	}
 
 .menu_principal ul li {
 	display:inline;
 	list-style:none;
-	padding-left:50px;
-	float:right;
+	padding: 15px;
 	
 	}
 
@@ -43,3 +48,110 @@
 	color:#ed145d;	
 }
 
+.login{
+margin-left: 150px;	
+background-color: #868686;
+border-radius: 4px;	
+}
+
+
+main{
+	width: 100%;
+	height: 500px;
+}
+
+
+/*Corpo*/
+
+.corpo{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+/*Rodapé*/
+
+.rodape{
+	width: 100%;
+	height: 350px; 
+	background-color: black;
+}
+
+.copy{
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	text-align: center;
+	background-color: black;
+}
+
+.copy hr{
+	size:30px;
+	color: #ccc;
+}
+
+.conteudo{
+	width: 100%;
+	background-color: #fff;
+}
+
+.ct1{
+	height: 200px;
+	float: right;
+	margin-right: 400px;
+	margin-top: 30px; 
+}
+
+
+.ct1 li{
+	list-style: none;
+	padding-top: 15px; 
+	transition: color .4s;
+}
+
+.ct1 li a{
+	color: #868686;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.ct1 li a:hover{
+ 	color: #fff;
+}
+
+.ct2{
+	height: 200px;
+	float: left;
+	margin-left: 400px;
+	margin-top: 30px; 
+}
+
+.ct2 li{
+	list-style: none;
+	padding-top: 15px; 
+	transition: color .4s;
+}
+
+.ct2 li a{
+	color: #868686;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.ct2 li a:hover{
+ 	color: #fff;
+}
+
+
+.siga{
+	color: #fff;
+	font-size: 18px;
+}
+
+.logo_rodape{
+	padding:40px;
+	padding-top: 60px;
+}
