@@ -50,27 +50,63 @@
 
 .login{
 margin-left: 150px;	
-background-color: #868686;
+background-color: #db1858;
 border-radius: 4px;	
 }
 
-
-main{
-	width: 100%;
-	height: 900px;
+.login a:hover{
+	color: black;
 }
 
 
 /*Corpo*/
 
-.corpo{
-	margin-top: 20px;
+main{
+	width: 100%;
+	height: 1200px;
+
+}
+.img_corpo  {
+background-image:url(img/rock.png);
+ width:100%;
+ height: 450px;
+ background-repeat: no-repeat;
+ background-position: center;
 }
 
+.texto_home{
+	color: #fff;
+	position: absolute;
+	left: 200px;
+	top: 200px;
+}
 
+.cor{
+color: #db1858;
+}
 
+.sobre{
+	font: 17px/42px Gotham HTF Book;
+    letter-spacing: .05em;
+    text-align: center;
+    margin-top: 30px;
+}
+.sobre1{
+	font: 17px Gotham HTF Book;
+    text-align: center;
+    margin-top: 30px;
+}
 
+.noticias{
+	margin-top: 30px; 
+}
+.noticias li {
 
+	display: inline;
+	width: 100%;
+	padding:40px;
+	padding-left: 60px;
+}
 
 /*Rodapé*/
 
