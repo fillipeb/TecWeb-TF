@@ -62,27 +62,29 @@ border-radius: 4px;
 
 /*Corpo*/
 
-main{
+section{
 	width: 100%;
 	padding-bottom: 20px;
 	padding-top: 
 }
+
 .banner  {
-background-image:url(img/rock.png);
- width:100%;
- height: 450px;
- background-repeat: no-repeat;
- background-position: center;
+	background-image:url(img/rock.png);
+ 	width:100%;
+ 	height: 450px;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
 }
 
-.texto_home{
+.texto_banner{
 	color: #fff;
 	position: absolute;
 	left: 200px;
 	top: 200px;
+	font-size: 30px;
 }
 
-.cor{
+.cor_padrao{
 color: #db1858;
 }
 
@@ -90,12 +92,12 @@ color: #db1858;
 	font: 17px/42px Gotham HTF Book;
     letter-spacing: .05em;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .sobre1{
 	font: 17px Gotham HTF Book;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 300px;
 }
 
 .noticias{
@@ -193,10 +195,27 @@ color: #db1858;
 	padding-top: 60px;
 }
 
-/*Página noticias*/
+/*Centralizar conteudo*/
 
 .center{
 	text-align: center;
 	padding-top: 30px;
 
+}
+
+/*Ajuste postagem*/
+
+.chamada{
+
+	width: 300px;
+	height: 150px;
+	float: left;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 16px;
+	margin-left: 105px; 
+}
+
+.noticias a{
+	text-decoration: none;
 }
