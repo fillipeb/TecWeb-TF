@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
-		<title>Página Home</title>
+		<title>Lista de cursos</title>
 		<meta charset="UTF-8">
 		<meta name="author" content="João Martins-1510229">
 		<meta name="author" content="Lucca Prazeres-1700726">
@@ -10,98 +11,119 @@
 		<meta name="author" content="Gabriel George-1700824">
 		<meta name="author" content="Alisson Ferrrari-1700784">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" media="screen and (min-width:0px)" href="css/estilo.css">
-		<link rel="stylesheet"	type="text/css" media="screen and (min-width:0px)" href="css/lista.css">
-
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/cursos.css">
 	</head>
-	
+	<!--
+		Correção EP2: 4,5
+		A estrutura ficou bem legal, com as tags semânticas;
+		(-0,5) Em algumas páginas existe uns <td's> completamente perdidos, bagunçando com a identação.
+		Isso dificulta o entendimento do código, além disso alguns headings foram usados de maneira errada (hierarquia derespeitada).
+	-->
 	<body>
-		<header class="page-header"> 
+		 <header class="page-header"> 
 		    	
 		   		<input type="checkbox" id="bt_menu">
 		   		<label for="bt_menu">&#9776;</label>
 
 		    	<div class="page-logo centralizar_elemento">
-		    		<a href="home.html"><img src="img/fiap-logo-novo.png" width="108" height="36"></a>
+		    		<a href="index.html"><img src="img/fiap-logo-novo.png" width="108" height="36"></a>
 		    	</div>
 
 				<nav class="page-menu centralizar_elemento">
 					<ul>
-						<li><a href="home.html">HOME</a></li>
+						<li><a href="index.html">HOME</a></li>
 						<li><a href="noticias.html">NOTÍCIAS</a></li>					
-						<li><a href="disciplinas.html">DISCIPLINAS</a></li>
-						<li><a href="lista_cursos.html">LISTA DE CURSOS</a></li>
-						<li><a href="detalhe_de_cursos.html">DETALHE DE CURSOS</hr></a></li>
+						<li><a href="lista_cursos.html">CURSOS</hr></a></li>
 					</ul>
 				</nav>	
 				<a class="bt_login centralizar_elemento" href="https://www2.fiap.com.br/">LOGIN</a>	
 			</header>
 			<div class="margem_sup"></div>	<!--Margem para topo fixo-->
-
-		<section class="cursos"> 
-			<ul id="lista"></ul>
-			<p><h1><center><em>Cursos Disponiveis</em></center><h1></p>
-			
-			<div class="noticias center cursos">
-				<div class="chamada" alt="noticia1">
-					<a href="#"><img src="img/adm.jpg" width="200px" height="120px"><p class="postagem">
-						<h4>Administração</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso1">
-					<a href="#"><img src="img/bd.jpg" width="200px" height="120px"><p class="postagem">
-						<h4>Banco de Dados</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso2">
-					<a href="#"><img src="img/prod.png" width="200px" height="120px"><p class="postagem">
-						<h4>Produção multiídia</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso3">
-					<a href="#"><img src="img/gti.jpg" " width="200px" height="120px"><p class="postagem">
-						<h4>Gestão de tecnologia da informação</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso4">
-					<a href="#"><img src="img/gti.jpg" width="200px" height="120px"><p class="postagem">
-						<h4>Jogos digitais</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso5">
-					<a href="#"><img src="img/si.png" width="200px" height="120px"><p class="postagem">
-						<h4>Sistema de informação</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso6">
-					<a href="#"><img src="img/redes.jpg" width="200px" height="120px"><p class="postagem">
-						<h4>Redes</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso7">
-					<a href="#"><img src="img/pr.jpg" width="200px" height="120px"><p class="postagem">
-						<h4>Processos gerenciais</h4>
-					</a>
-				</div>
-				
-				<div class="chamada" alt="curso6">
-					<a href="#"><img src="img/ads.jpg" width="200px" height="120px"><p class="postagem">
-						<h4>Analise E Desenvolvimento De Sistemas</h4>
-					</a>
-				</div>
-			</div>
-																
-		</section> 
-
 		
-	<hr align="center" size="1" color=#db1858>
+
+
+		<!--Inicio_Corpo-->	
+		<section class="page_content_cursos">	
+			<article class="banner_cursos">
+				<h1 class="texto_banner_graduação">Graduação</h1>
+			</article>	
+
+			<h1>CURSOS</h1>
+			
+			<article class="lista_cursos01">
+			<ul>
+				<li><a href="detalhe_de_cursos.html">
+					<img src="img/adm.jpg">
+						<p class="postagem">
+						<p><strong>Administração</strong></p>
+					</a>	
+				</li>
+				
+					
+					
+				<li><a href="detalhe_de_cursos.html">
+					<img src="img/ads.jpg">
+						<p class="postagem">
+						<p><strong>Analise e Desenvolvimento</strong></p>
+					</a>	
+				</li>
+
+				<li><a href="detalhe_de_cursos.html">
+						<img src="img/bd.jpg">
+						<p class="postagem">
+						<p><strong>Banco de dados</strong></p>
+					</a>	
+				</li>
+				
+				<li><a href="detalhe_de_cursos.html">
+					<img src="img/gpg.jpg">
+						<p class="postagem">
+						<p><strong>Graduação em Gestão da Tecnologia</strong></p>
+					</a>	
+				</li>
+
+			</ul>
+			</article>
+
+			<article class="lista_cursos02">
+			<ul>
+				<li><a href="detalhe_de_cursos.html">
+						<img src="img/gti.jpg">
+						<p class="postagem">
+						<p><strong>Gestão de tecnologia da informação</strong></p>
+					</a>	
+				</li>
+				
+				<li><a href="detalhe_de_cursos.html">
+						<img src="img/jgs.jpg">
+						<p class="postagem">
+						<p><strong>Jogos digitais</strong></p>
+					</a>	
+				</li>
+
+				<li><a href="detalhe_de_cursos.html">
+					<img src="img/graduacao-em-redes-de-computadores.jpg">
+						<p class="postagem">
+						<p><strong>Redes</strong></p>
+					</a>	
+				</li>
+				
+				<li><a href="detalhe_de_cursos.html">
+						<img src="img/multimidia.jpg">
+						<p class="postagem">
+						<p><strong>Graduação em produção multimídia</strong></p>
+					</a>	
+				</li>
+
+			</ul>
+			</article>
+		</section> 
+		<!--Fim_Corpo-->
+
+
+
+		<hr align="center" size="1" color=#db1858>
 		<footer class="page-rodape"> <!--Inicio_rodapé-->
 					
 						<div class="logo logo_rodape" alt="logo_fiap">

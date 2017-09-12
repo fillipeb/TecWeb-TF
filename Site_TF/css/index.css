@@ -53,7 +53,7 @@ color: #db1858;
 
 .page-header {
    	display: grid;
-    grid-template-columns: 15% 65% 20%;
+    grid-template-columns: 15% 20% 20%;
     grid-template-rows: 80px;
     background-color: #000;
     position: fixed;
@@ -630,7 +630,7 @@ color: #db1858;
 }
 
 	.txt_sobre_curso{
-	font: 17px/42px Gotham HTF Book;
+	font: 17px Gotham HTF Book;
     letter-spacing: .05em;
     text-align: center;
     padding-top: 25px;
