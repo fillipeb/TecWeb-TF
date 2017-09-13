@@ -26,20 +26,67 @@
 
 .lista_cursos01{
 	grid-row:2;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    position: relative;
+    grid-column:1; 
+	padding:20px;
     height: 300px;
 }
 
-.lista_cursos01 ul{
-	display: flex;
+.lista_cursos02{
+	grid-row:2;
+    grid-column:2; 
+	padding:20px;
+    height: 300px;
 }
 
+.lista_cursos03{
+	grid-row:2;
+    grid-column:3; 
 
-.lista_cursos01 li{
-	padding:33px;
+	padding:20px;
+    height: 300px;
 }
+
+.lista_cursos04{
+	grid-row:2;
+    grid-column:4; 
+
+	padding:20px;
+    height: 300px;
+	text-align:center;
+}
+
+.lista_cursos05{
+	grid-row:3;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos06{
+	grid-row:3;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos07{
+	grid-row:3;
+    grid-column:3; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos08{
+	grid-row:3;
+    grid-column:4; 
+
+	padding:20px;
+    height: 300px;
+}
+
 
 .lista_cursos01 a{
 	text-decoration: none;
@@ -47,35 +94,6 @@
 	text-decoration: none;
 	color: #fff;
     font: 16px/18px Roboto;
-}
-
-.lista_cursos01 li:hover{
-opacity: 0.5;
-transition: .4s;
-
-}
-
-.lista_cursos02 li:hover{
-opacity: 0.5;
-transition: .4s;
-
-}
-
-.lista_cursos02{
-	grid-row:3;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    position: relative;
-    height: 300px;
-}
-
-.lista_cursos02 ul{
-	display: flex;
-}
-
-
-.lista_cursos02 li{
-	padding:33px;
 }
 
 .lista_cursos02 a{
@@ -86,11 +104,356 @@ transition: .4s;
     font: 16px/18px Roboto;
 }
 
+.lista_cursos03 a{
+	text-decoration: none;
+	text-align: left;	
+	text-decoration: none;
+	color: #fff;
+    font: 16px/18px Roboto;
+}
+
+.lista_cursos04 a{
+	text-decoration: none;
+	text-align: left;	
+	text-decoration: none;
+	color: #fff;
+    font: 16px/18px Roboto;
+}
+
+.lista_cursos05 a{
+	text-decoration: none;
+	text-align: left;	
+	text-decoration: none;
+	color: #fff;
+    font: 16px/18px Roboto;
+}
+
+.lista_cursos06 a{
+	text-decoration: none;
+	text-align: left;	
+	text-decoration: none;
+	color: #fff;
+    font: 16px/18px Roboto;
+}
+
+.lista_cursos07 a{
+	text-decoration: none;
+	text-align: left;	
+	text-decoration: none;
+	color: #fff;
+    font: 16px/18px Roboto;
+}
+
+.lista_cursos08 a{
+	text-decoration: none;
+	text-align: left;	
+	text-decoration: none;
+	color: #fff;
+    font: 16px/18px Roboto;
+}
+
+.lista_cursos01 a:hover{
+opacity: 0.5;
+transition: .4s;
+
+}
+
+.lista_cursos02 a:hover{
+opacity: 0.5;
+transition: .4s;
+
+}
+
+.lista_cursos03 a:hover{
+opacity: 0.5;
+transition: .4s;
+
+}
+
+.lista_cursos04 a:hover{
+opacity: 0.5;
+transition: .4s;
+
+}
+
+.lista_cursos05 a:hover{
+opacity: 0.5;
+transition: .4s;
+
+}
+
+.lista_cursos06 a:hover{
+opacity: 0.5;
+transition: .4s;
+
+}
+
+.lista_cursos07 a:hover{
+opacity: 0.5;
+transition: .4s;
+}
+
+.lista_cursos08 a:hover{
+opacity: 0.5;
+transition: .4s;
+
+}
+
 
 /*______________________________Responsivo_______________________________________*/
 
 /* iPads (restrato e paisagem) */
-@media only screen and (max-width :1160px) {
+@media only screen and (max-width :1180px) {
 
+.page_content_cursos{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: auto auto auto auto;
+	background-image:url(../img/bg_conteudo.png);
+}
 
+.banner_cursos{
+	background-image:url(../img/bg_graduação.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	grid-row:1;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.lista_cursos01{
+	grid-row:2;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos02{
+	grid-row:2;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos03{
+	grid-row:2;
+    grid-column:3; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos04{
+	grid-row:3;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos05{
+	grid-row:3;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos06{
+	grid-row:3;
+    grid-column:3; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos07{
+	grid-row:4;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos08{
+	grid-row:4;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+}
+
+@media only screen and (max-width :878px) {
+
+.page_content_cursos{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto auto auto auto auto;
+	background-image:url(../img/bg_conteudo.png);
+}
+
+.banner_cursos{
+	background-image:url(../img/bg_graduação.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	grid-row:1;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}	
+	
+.lista_cursos01{
+	grid-row:2;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos02{
+	grid-row:2;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos03{
+	grid-row:3;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos04{
+	grid-row:3;
+    grid-column:2; 
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos05{
+	grid-row:4;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos06{
+	grid-row:4;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos07{
+	grid-row:5;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos08{
+	grid-row:5;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+	
+	
+	
+}
+
+@media only screen and (max-width :621px) {
+.page_content_cursos{
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto auto auto auto auto auto;
+	background-image:url(../img/bg_conteudo.png);
+}
+
+.banner_cursos{
+	background-image:url(../img/bg_graduação.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 300px;
+	grid-row:1;
+	grid-column-start: 1;
+	grid-column-end: 1;
+}	
+	
+.lista_cursos01{
+	grid-row:2;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos02{
+	grid-row:3;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos03{
+	grid-row:4;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos04{
+	grid-row:5;
+    grid-column:1; 
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos05{
+	grid-row:6;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos06{
+	grid-row:7;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos07{
+	grid-row:8;
+    grid-column:1; 
+
+	padding:20px;
+    height: 300px;
+}
+
+.lista_cursos08{
+	grid-row:5;
+    grid-column:2; 
+
+	padding:20px;
+    height: 300px;
+}
+	
+	
+	
 }
