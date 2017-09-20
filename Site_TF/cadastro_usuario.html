@@ -12,7 +12,7 @@
 		<meta name="author" content="Alisson Ferrrari-1700784">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/cadastro_user.css">
 	</head>
 
 	<body>
@@ -38,24 +38,47 @@
 		
 		<!--Inicio_Corpo-->	
 		<section>
+			<div class="container">
+			<div class="cadastro-page">
+				<div class="formulario">
+					<p class="texto">Cadastre-se</p></br>
+					<form class="login-formulario">
+						<input class="formatacao-campo" type="text" placeholder="Nome"/>
+						<input class="formatacao-campo" type="text" placeholder=" Sobre nome"/>
+							<p class="texto">Sexo</p></br>		
+						<input type="RADIO"required="required"  name="sexo" value="sexo"> Masculino</br>
+						<input type="RADIO"required="required"  name="sexo" value="sexo"> Feminino</br>
+						</br>
+						<p class="texto">Data Nascimento</p>	
+						<input class="formatacao-campo" type="date" required="required"  placeholder="Data Dascimento"/>
+						<input class="formatacao-campo" type="text" required="required"  placeholder="R.A"/>
+						<input class="formatacao-campo" type="email" required="required" name="email" placeholder="email"/>
+						<input class="formatacao-campo" type="tel"  required="required" maxlength="15" name="telefone" placeholder="Telefone"/>
+						<input class="formatacao-campo" type="text" required="required" placeholder="Curso"/>
+						<input class="btn-formulario" type="reset" value="Apagar Campos">	
+			     </div>
 
-			<div class="login-page">
-				<div class="form">
-					<form class="login-form radio">
-						<input type="text" placeholder="Nome Completo"/>
-						<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op1"> opção1
-						<INPUT TYPE="RADIO" NAME="OPCAO" VALUE="op2"> opção2 
-						<button>login</button>
-						<p class="message">Nao se registrou? <a href="cadastro_usuario.html">Crie sua conta</a></p>
-						<p class="message">Esqueceu sua senha ? <a href="esqueci_senha.html">Clique aqui!</a></p> 
-					</form>
+				<div class="cadastro-page-02">
+					<div class="formulario">
+					<p class="texto">Endereço</p></br>
+					<form class="login-formulario">
+						<input class="formatacao-campo" type="text" maxlength="25" placeholder="Rua"/>
+						<input class="formatacao-campo" type="text" maxlength="8" pattern="[0-9]+$" placeholder=" Número"/>	
+						<input class="formatacao-campo" type="text" required="required" name="rua"  placeholder="C.E.P"/>
+						<input class="formatacao-campo" type="text"  required="required" maxlength="25" name="bairro" placeholder="Bairro"/>
+						<input class="formatacao-campo" type="text"  required="required" maxlength="25" name="estadoe" placeholder="Estado"/>
+						<input class="formatacao-campo" type="text"  required="required" maxlength="15" name="cidade" placeholder="Cidade"/>
+						<input class="btn-formulario" type="submit" value="Enviar">
+						<input class="btn-formulario" type="reset" value="Apagar Campos">	
+						<p class="message">Esqueceu sua senha ?<a href="esqueci_senha.html">Clique aqui!</a></p> 
+					</form>	
+	
 				</div>
 			</div>
-				
-				
+		</div>	
 
-		</section> 
-		<!--Fim_Corpo-->
+		</section>		 
+	<!--Fim_Corpo-->
 
 		<hr align="center" size="1" color=#db1858>
 		<footer class="page-rodape"> <!--Inicio_rodapé-->
