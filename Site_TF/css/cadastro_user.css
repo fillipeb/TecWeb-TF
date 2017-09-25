@@ -7,7 +7,7 @@
 
 .container{
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 950px;
     grid-template-columns: 50% 50%;
 }
 
@@ -110,7 +110,7 @@ body {
   position: relative;
   left: 0;
   top: 0;
-  margin-right: 21%;
+  margin-right: 24%;
 
   }
 
@@ -145,7 +145,7 @@ body {
   position: relative;
   left: 0;
   top: 0;
-  margin-right: 12%;
+  margin-right: 19%;
 
   }
 
@@ -180,7 +180,7 @@ body {
   position: relative;
   left: 0;
   top: 0;
-  margin-right: 3%;
+  margin-right: 2%;
 
   }
 
