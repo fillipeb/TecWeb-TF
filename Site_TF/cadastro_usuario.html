@@ -44,16 +44,16 @@
 					<div class="formulario">
 						<p class="texto">Cadastre-se</p></br>
 						<form class="login-formulario" action="#" method="post">
-							<input class="formatacao-campo" type="text" placeholder="Nome"/>
-							<input class="formatacao-campo" type="text" placeholder=" Sobre nome"/>
+							<input class="formatacao-campo" required="required"  type="text" placeholder="Nome"/>
+							<input class="formatacao-campo" required="required" type="text" placeholder=" Sobre nome"/>
 							<p class="texto">Sexo</p></br>		
-							<input type="RADIO"required="required"  name="sexo" value="sexo"> Masculino</br>
-							<input type="RADIO"required="required"  name="sexo" value="sexo"> Feminino</br>
+							<input type="RADIO" name="sexo" value="sexo"> Masculino</br>
+							<input type="RADIO"  name="sexo" value="sexo"> Feminino</br>
 							</br>
 							<p class="texto">Data Nascimento</p>	
 							<input class="formatacao-campo" type="date" required="required"  placeholder="Data Dascimento"/>
 							<input class="formatacao-campo" type="text" required="required"  placeholder="R.A"/>
-							<input class="formatacao-campo" type="email" required="required" name="email" placeholder="email"/>
+							<input class="formatacao-campo" type="email" required="required" name="email" placeholder="E-mail"/>
 							<input class="formatacao-campo" type="tel"  required="required" maxlength="15" name="telefone" placeholder="Telefone"/>
 							<input class="formatacao-campo" type="text" required="required" placeholder="Curso"/>
 							<input class="btn-formulario" type="reset" value="Apagar Campos">	
@@ -65,13 +65,22 @@
 							<form class="login-formulario">
 								<input class="formatacao-campo" type="text" maxlength="25" placeholder="Rua"/>
 								<input class="formatacao-campo" type="text" maxlength="8" pattern="[0-9]+$" placeholder=" Número"/>	
-								<input class="formatacao-campo" type="text" required="required" name="rua"  placeholder="C.E.P"/>
+								<input class="formatacao-campo" type="text" required="required" name="rua"  placeholder="CEP"/>
 								<input class="formatacao-campo" type="text"  required="required" maxlength="25" name="bairro" placeholder="Bairro"/>
-								<input class="formatacao-campo" type="text"  required="required" maxlength="25" name="estado" placeholder="Estado"/>
+								<p class="texto">Estado e Cidade</p></br>
 								<input class="formatacao-campo" type="text"  required="required" maxlength="15" name="cidade" placeholder="Cidade"/>
+								
+								<select class="formatacao-campo" required="required" name="estado" placeholder="Estado"/>
+								<option>SP</option> 
+            					<option>SC</option> 
+					            <option>PR</option> 
+					            <option>RJ</option> 
+					            <option>PA</option>
+								 </select>
+
 								<p class="texto">Senha</p></br>
-								<input class="formatacao-campo" type="text"  required="required" maxlength="25" name="senha" placeholder="Senha"/>
-								<input class="formatacao-campo" type="text"  required="required" maxlength="15" name="Senha" placeholder=" Confirme sua senha"/>
+								<input class="formatacao-campo" type="password"  required="required" minlength="4" name="senha" placeholder="Senha"/>
+								<input class="formatacao-campo" type="password"  required="required" minlength="4" name="Senha" placeholder=" Confirme sua senha"/>
 								<input class="btn-formulario" type="submit" value="Enviar">
 								<input class="btn-formulario" type="reset" value="Apagar Campos">	
 								<p class="message">Esqueceu sua senha ?<a href="esqueci_senha.html">Clique aqui!</a></p> 

@@ -10,29 +10,35 @@
     background-color: #000;
 	}
 	
-	.banner_si{
-	background-image:url(../img/si_curso.jpg);
- 	background-repeat: no-repeat;
- 	height: 350px;
- 	grid-row:1;
-  grid-column-start: 1;
-  grid-column-end: 3;
-	}
-	
-	.banner_si img{
-		width:100%;
-	}
+	.imagemtopodisciplinas2{
+  background-image:url(../img/si_curso.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  grid-row:1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-bottom: solid 4px #c7134e;
+}
+  
 
-	.texto_banner_si{
-	color: #fff;
-	font-size: 35px;
- 	text-decoration: none;
-	position: absolute;
-    left: 35%;
-    top: 25%;
-
+.imagemtopodisciplinas2 h1{
+  font: 50px/42px Verdana bold;
+  text-shadow: 0px 0px 3px darkred;
+    letter-spacing: .05em;
+    text-align: center;
+    padding-top: 110px;
+    text-transform: uppercase;
+  width:100%;
+  color: #fff;
+  margin-top: inherit;
 }
 
+.imagemtopodisciplinas2 img{
+  text-shadow: 0px 0px 3px darkred;
+    letter-spacing: .05em;
+    margin-left: 48%;
+    padding-top: 30px;
+}
 	.txt_sobre_curso{ 
 
     font: 17px Gotham HTF Book;
@@ -66,7 +72,10 @@ padding: 10%;
 
 /* iPads (restrato e paisagem) */
 @media only screen and (max-width :900px) {
-
+  *{
+    margin: 0;
+    padding: 0;
+  }
 
   .corpo{
      display: grid;
@@ -91,19 +100,19 @@ padding: 10%;
    height: 400px;
    } 
 
+.contato{
+  grid-row:3;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
 
-  .corpo{
-     grid-row:3;
-    grid-column:1;
-
-  }
-
-
-.btn_consulte_grade{
+  .btn_consulte_grade{
      grid-row:4;
     grid-column:1;
     width: 100%;
   }
+
+
 }
 
 
@@ -132,7 +141,7 @@ padding: 10%;
     text-decoration: none;
     text-align: center;
 
-}
+    }
 
 
   .txt_sobre_curso{ 
@@ -143,7 +152,7 @@ padding: 10%;
    } 
 
 
-  .corpo{
+  .contato{
      grid-row:3;
     grid-column:1;
 
@@ -161,7 +170,7 @@ padding: 10%;
 
 /*________________________ Estilizando-Formulário-Inicio___________________*/
 
-.container {
+.formulario {
   max-width:600px;
   margin:0 auto;
   text-align:center;
@@ -204,7 +213,7 @@ input, textarea {
   padding: 15px 10px 10px;
   font-family: 'Source Sans Pro',arial,sans-serif;
   border: 1px solid #cecece;
-  background: #676565!important;
+  background: #ccc!important;
   color:#FAFAFA;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

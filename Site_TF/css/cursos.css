@@ -2,7 +2,7 @@
 .page_content_cursos{
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto;
 	background-image:url(../img/bg_conteudo.png);
 }
 
@@ -121,6 +121,31 @@
     padding: 20px;
 }
 
+.cadastre_curso{
+	grid-row:4;
+    grid-column-start:2;
+    grid-column-end:4; 
+	position: relative;
+    background-color: #db1858;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cadastre_curso:hover{
+	background-color: #000;
+	border:solid 1px #db1858 ;
+}
+
+.txt_cadastro_curso {
+	color: #fff;
+	font-size: 20px;
+}
+
+a {text-decoration: none; }	
+
 .lista_cursos01 a:hover{
 opacity: 0.5;
 transition: .4s;
@@ -177,9 +202,15 @@ transition: .4s;
 .page_content_cursos{
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
-	grid-template-rows: auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto;
 	background-image:url(../img/bg_conteudo.png);
 }
+
+.cadastre_curso{
+	grid-row:5;
+    grid-column-start:2;
+    grid-column-end:2;
+    }
 
 .banner_cursos{
 	background-image:url(../img/bg_cursos.jpg);
@@ -270,9 +301,15 @@ transition: .4s;
 .page_content_cursos{
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-template-rows: auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto auto auto;
 	background-image:url(../img/bg_conteudo.png);
 }
+
+.cadastre_curso{
+	grid-row:7;
+    grid-column-start:1;
+    grid-column-end:1;
+    }
 
 .banner_cursos{
 	background-image:url(../img/bg_cursos.jpg);
@@ -383,9 +420,15 @@ transition: .4s;
 .page_content_cursos{
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: auto auto auto auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
 	background-image:url(../img/bg_conteudo.png);
 }
+
+.cadastre_curso{
+	grid-row:10;
+    grid-column-start:1;
+    grid-column-end:1;
+    }
 
 .banner_cursos{
 	background-image:url(../img/bg_cursos.jpg);

@@ -3,6 +3,12 @@
   padding: 8% 0 0;
   margin: auto;
 }
+
+.texto {
+    padding: 10px;
+    border-bottom: solid 1px #cf1351;    
+}
+
 .form {
   position: relative;
   z-index: 1;

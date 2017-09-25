@@ -42,22 +42,27 @@
 			<div class="container">
 				<div class="cadastro-page">
 					<div class="formulario">
-						<p class="texto">Cadastro Curso</p></br>
+						<p class="texto">Cadastro nova disciplina</p></br>
+						
 						<form class="login-formulario" action="#" method="post">
+							<input class="formatacao-campo" type="text" placeholder="Nome curso" autofocus="" />
 							<input class="formatacao-campo" type="text" placeholder="Professor responsável"/>
-							<input class="formatacao-campo" type="text" pattern="[0-9-]+" maxlength="4" required placeholder=" Horas mensais	"/>
-							placeholder="Telefone"/>
-							<input class="btn-formulario" type="submit" value="Enviar">
-								<input class="btn-formulario" type="reset" value="Apagar Campos">
-						</div>
+							<input class="formatacao-campo" type="number" min="0" max="500" pattern="[0-9-]+" maxlength="4" required placeholder=" Horas mensais"/>
 
-							</form>	
+							<input class="formatacao-campo" type="number" min="0" max="500" pattern="[0-9-]+" maxlength="4" required placeholder=" Duracao da aula em horas"/>
+
+							<textarea type="text" name="mensagem" placeholder="Resumo do curso"></textarea><br/>
+							<br/>
+
+							<input class="btn-formulario" type="submit" value="Cadastrar">
+							<input class="btn-formulario" type="reset" value="Apagar Campos">
+						</form>	
 							
-						</div>
 					</div>
-				</div>	
-
-			</section>		 
+				</div>
+			</div>	
+		</section>	
+		 
 	<!--Fim_Corpo-->
 
 		<hr align="center" size="1" color=#db1858>
