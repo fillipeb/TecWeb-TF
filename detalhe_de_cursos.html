@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>FIAP</title>
+		<title>Detalhe de cursos</title>
 		<meta charset="UTF-8">
 		<meta name="author" content="João Martins-1510229">
 		<meta name="author" content="Lucca Prazeres-1700726">
@@ -12,9 +12,10 @@
 		<meta name="author" content="Alisson Ferrrari-1700784">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
-		<link rel="stylesheet" type="text/css" href="css/login.css">
-	</head>
+		<link rel="stylesheet" type="text/css" href="css/detalhe_curso.css">
 
+	</head>
+	
 	<body>
 		 <header class="page-header"> 
 		    	
@@ -34,30 +35,56 @@
 				</nav>	
 				<a class="bt_login centralizar_elemento" href="login.html">LOGIN</a>	
 			</header>
-			<div class="margem_sup"></div>	<!--Margem para topo fixo-->
+			<div class="margem_sup"></div>	
 		
-		<!--Inicio_Corpo-->	
-		<section>
+		<!--corpo_inicio-->	
+		<section class="corpo"> 
+			<figure class="imagemtopodisciplinas2">
+				<h1 class="titulodisciplinas">Sistema de informacao</h1>
+				<img class="enead" src="img/enead.png" height="65" width="60" alt="enead_3_lugar">
+			</figure>	
+		    	
+				<article class="txt_sobre_curso">
+					<h1>SOBRE O CURSO</h1></br>
+					
+					<p>Este curso visa formar empreendedores, profissionais e pesquisadores focados na construção,
+					manutenção e evolução dos sistemas computacionais de apoio às organizações. </p>
+					</br>
+					<p>O perfil empreendedor é alcançado fazendo com que os alunos possam criar suas próprias
+					startups e produtos inovadores durante os quatro semestres finais do curso. </p>
+					</br>
+					<p>O perfil profissional é alcançado desenvolvendo no aluno a capacidade de entender e analisar 
+					problemas reais e a desenvolver soluções pragmáticas com o uso de tecnologias de melhor custo benefício. </p>
+					</br>
+				</article>	
+				
+				
+				<form class="contato" action="#" method="post">
+					<div class="formulario">
+						<div class="head">
+							<h2>Fale conosco</h2>
+						</div>
 
-			<div class="login-page" action="#" method="post">
-				<div class="form">
-					<form class="login-form">
-					<p class="texto">Login</p></br>
-						<input type="text" placeholder="R.A"/>
-						<input type="password" placeholder="Senha"/>
-						<button>login</button>
-						<p class="message">Nao se registrou? <a href="cadastro_usuario.html">Crie sua conta</a></p>
-						<p class="message">Esqueceu sua senha ? <a href="esqueci_senha.html">Clique aqui!</a></p> 
-					</form>
-				</div>
-			</div>
-			
+						<input type="text" name="name" placeholder="Nome" /><br />
+						<input  type="email" name="email" placeholder="Email" /><br />
+						<input  type="email" name="text" placeholder="Assunto" /><br />
+						<textarea type="text" name="mensagem" placeholder="Mensagem"></textarea><br />
+						<div class="message"></div>
+						<button id="enviar" type="submit">Enviar</button>
+					</div>
+				</form>	
+				
+				<a class="btn_consulte_grade" href="disciplinas.html"> 
+					  Consulte nossa Grade
+				</a>
 
-		</section> 
-		<!--Fim_Corpo-->
-
+			</section>
+		<!--corpo_fim-->
+		
+		 
+		
 		<hr align="center" size="1" color=#db1858>
-		<footer class="page-rodape"> <!--Inicio_rodapé-->
+			<footer class="page-rodape"> <!--Inicio_rodapé-->
 					
 						<div class="logo logo_rodape" alt="logo_fiap">
 							<li><a href="#">
